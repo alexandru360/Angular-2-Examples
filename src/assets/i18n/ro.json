@@ -1,0 +1,5 @@
+{
+  "HELLO": "salut {{value}}",
+  "Title": "Titlu",
+  "Intro": "Intro"
+}

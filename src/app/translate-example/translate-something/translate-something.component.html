@@ -1,0 +1,19 @@
+<div class="btn-group btn-lg">
+<button type="button" class="btn btn-primary" (click)="switchLanguage('en')">En</button>
+  <button type="button" class="btn btn-primary" (click)="switchLanguage('ro')">Ro</button>
+  <button type="button" class="btn btn-primary" (click)="switchLanguage('fr')">Fr</button>
+</div>
+
+<h1 translate>Title</h1>
+
+<div>
+  {{ 'Intro' | translate:user }}
+</div>
+
+<div>
+  {{ 'HELLO' | translate:param }}
+</div>
+
+<div>
+  {{ 'LocalizationErr' | translate:param }}
+</div>
